@@ -40,4 +40,4 @@ function calculer(valeur) {
         }
     }
 };
-window.addEventListener('error', (e) => alert('Une erreur est survenue dans votre calcul :' + e.message))
+window.addEventListener('error', (e) => { alert('Une erreur est survenue dans votre calcul :' + e.message) })
